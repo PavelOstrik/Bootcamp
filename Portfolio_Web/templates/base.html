@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<style>
+    html{
+        background-color: rgba(127, 255, 244, 0.952);
+    }
+    button{
+        background-color: #00f7ffdc;
+        }
+</style>
+<body>
+{% block content %}
+
+<h1><ol>Моё портфолио:</ol></h1>
+
+<button><a href="/projects"><b>Мои проекты</b></a></button>
+<button><a href="/about_me"><b>О себе</b></a></button>
+
+{% endblock %}
+
+</body>
+</html>

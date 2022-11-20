@@ -61,3 +61,6 @@ while t1.xcor()<finish and t2.xcor()<finish:
     t1.forward(randint(2,7))  # t1.forward рисует вперед со случайным шагом от 2 до 7    
     t2.forward(randint(2,7))
     sleep(0.05)
+    
+
+
